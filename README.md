@@ -1,262 +1,103 @@
-Contribution: 2017-03-07 20:00
+# A basic portfolio for developers
 
-Contribution: 2017-03-07 20:01
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-Contribution: 2017-03-08 20:00
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 
-Contribution: 2017-03-08 20:01
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Contribution: 2017-03-08 20:02
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fnext-portfolio-dev&env=GITHUB_TOKEN,FORMIUM_ENDPOINT,NEXT_PUBLIC_PORTFOLIO_RECAPTCHA_KEY,NEXT_PUBLIC_PORTFOLIO_URL&envDescription=All%20env%20variables%20are%20required%20to%20deploy%20the%20project&envLink=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fnext-portfolio-dev%2Fblob%2Fmaster%2F.env.development.template&project-name=my-portfolio&repo-name=my-portfolio&demo-title=Portfolio%20demo&demo-description=A%20simple%20portfolio%20for%20developers&demo-url=https%3A%2F%2Fportfolio-next.smakosh.com&demo-image=https%3A%2F%2Fportfolio-next.smakosh.com%2Fassets%2Fthumbnail%2Fthumbnail.png)
 
-Contribution: 2017-03-09 20:00
+[![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.com?utm_source=smakosh&utm_campaign=oss)
 
-Contribution: 2017-03-15 20:00
+## Gatsby version
 
-Contribution: 2017-03-15 20:01
+[Gatsby-portfolio-portfolio](https://github.com/smakosh/gatsby-portfolio-dev)
 
-Contribution: 2017-03-15 20:02
+## Features
 
-Contribution: 2017-03-17 20:00
+- TypeScript
+- Eslint/Prettier configured
+- Scores 100% on a11y / Performance / PWA / SEO
+- PWA (desktop & mobile)
+- Easy to customize
+- Nice project structure
+- Amazing illustrations by [Undraw.co](https://undraw.co)
+- Tablet & mobile friendly
+- Continuous deployment with [Vercel](https://vercel.com/?utm_source=smakosh)
+- A contact form protected by Google Recaptcha powered by Formium
+- Can be deployed with one click
+- Fetches your Github pinned projects with most stars (You could customize this if you wish) using ISR
+- One click deployment to Vercel
 
-Contribution: 2017-03-17 20:01
+## Design
 
-Contribution: 2017-03-20 20:00
+Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfolio-for-developers)
 
-Contribution: 2017-03-20 20:01
+## Prerequisites
 
-Contribution: 2017-03-21 20:00
+### Online
 
-Contribution: 2017-03-21 20:01
+1. Create an account at [Formium](https://formium.com/?utm_source=smakosh) and grab your form endpoint url
+2. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
+3. Grab your Github token from [GitHub](https://github.com/settings/tokens/new?scopes=repo&description=portfolio-dev)
+4. Click [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fnext-portfolio-dev&env=GITHUB_TOKEN,FORMIUM_ENDPOINT,NEXT_PUBLIC_PORTFOLIO_RECAPTCHA_KEY,NEXT_PUBLIC_PORTFOLIO_URL&envDescription=All%20env%20variables%20are%20required%20to%20deploy%20the%20project&envLink=https%3A%2F%2Fgithub.com%2Fsmakosh%2Fnext-portfolio-dev%2Fblob%2Fmaster%2F.env.development.template&project-name=my-portfolio&repo-name=my-portfolio&demo-title=Portfolio%20demo&demo-description=A%20simple%20portfolio%20for%20developers&demo-url=https%3A%2F%2Fportfolio-next.smakosh.com&demo-image=https%3A%2F%2Fportfolio-next.smakosh.com%2Fassets%2Fthumbnail%2Fthumbnail.png) and pass in your:
 
-Contribution: 2017-03-21 20:02
+- Formium form endpoint
+- Google recaptcha public key
+- Github token
 
-Contribution: 2017-03-21 20:03
+To Env variables section.
 
-Contribution: 2017-03-22 20:00
+### Locally
 
-Contribution: 2017-03-22 20:01
+1. Create an account at [Formium](https://formium.io/?utm_source=smakosh)
+2. Install [Yarn](https://yarnpkg.com/en/)
+3. Grab a Google recaptcha key from [Google Recaptcha](https://www.google.com/recaptcha/admin)
+4. Grab your Github token from GitHub
+5. Run `cp .env.development.local.template .env.development.local`
+   > If you'd like to build the website locally, you will need to run `cp .env.development.local.template .env.development.local` as well and provide your env variables.
+6. Run `yarn && yarn dev`
 
-Contribution: 2017-03-23 20:00
+   > You could run `vercel env pull` to get your env variables from Vercel.
 
-Contribution: 2017-03-24 20:00
+7. Make sure to edit the `src/data/config.ts` file
 
-Contribution: 2017-03-24 20:01
+### Deploying locally to Vercel
 
-Contribution: 2017-03-27 20:00
+I highly recommend that you push to GitHub/GitLab and deploy your repository to Vercel instead or just hit the Deploy button.
 
-Contribution: 2017-03-27 20:01
+## Built with
 
-Contribution: 2017-03-27 20:02
+- Adobe XD
+- Next js
+- TypeScript
+- Formium
+- Google recaptcha
+- VSCode
+- And these useful of JavaScript libraries [package.json](package.json)
 
-Contribution: 2017-03-27 20:03
+## License
 
-Contribution: 2017-03-28 20:00
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more details
 
-Contribution: 2017-03-28 20:01
+## Contributors
 
-Contribution: 2017-03-28 20:02
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://upleveled.io/"><img src="https://avatars.githubusercontent.com/u/61600906?v=4?s=100" width="100px;" alt=""/><br /><sub><b>José Fernando Höwer Barbosa</b></sub></a><br /><a href="https://github.com/smakosh/next-portfolio-dev/commits?author=Josehower" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Elbarae1921"><img src="https://avatars.githubusercontent.com/u/44276243?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Elbarae Rguig</b></sub></a><br /><a href="https://github.com/smakosh/next-portfolio-dev/commits?author=Elbarae1921" title="Code">💻</a> <a href="https://github.com/smakosh/next-portfolio-dev/commits?author=Elbarae1921" title="Documentation">📖</a> <a href="https://github.com/smakosh/next-portfolio-dev/issues?q=author%3AElbarae1921" title="Bug reports">🐛</a></td>
+  </tr>
+</table>
 
-Contribution: 2017-03-28 20:03
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
-Contribution: 2017-03-30 20:00
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-Contribution: 2017-03-30 20:01
+## Support
 
-Contribution: 2017-03-30 20:02
-
-Contribution: 2017-03-30 20:03
-
-Contribution: 2017-03-30 20:04
-
-Contribution: 2017-03-31 20:00
-
-Contribution: 2017-03-31 20:01
-
-Contribution: 2017-03-31 20:02
-
-Contribution: 2017-03-31 20:03
-
-Contribution: 2017-03-31 20:04
-
-Contribution: 2017-04-04 20:00
-
-Contribution: 2017-04-04 20:01
-
-Contribution: 2017-04-04 20:02
-
-Contribution: 2017-04-10 20:00
-
-Contribution: 2017-04-10 20:01
-
-Contribution: 2017-04-10 20:02
-
-Contribution: 2017-04-10 20:03
-
-Contribution: 2017-04-10 20:04
-
-Contribution: 2017-04-12 20:00
-
-Contribution: 2017-04-12 20:01
-
-Contribution: 2017-04-12 20:02
-
-Contribution: 2017-04-12 20:03
-
-Contribution: 2017-04-12 20:04
-
-Contribution: 2017-04-13 20:00
-
-Contribution: 2017-04-19 20:00
-
-Contribution: 2017-04-19 20:01
-
-Contribution: 2017-04-20 20:00
-
-Contribution: 2017-04-20 20:01
-
-Contribution: 2017-04-20 20:02
-
-Contribution: 2017-04-21 20:00
-
-Contribution: 2017-04-21 20:01
-
-Contribution: 2017-04-25 20:00
-
-Contribution: 2017-04-25 20:01
-
-Contribution: 2017-04-25 20:02
-
-Contribution: 2017-04-26 20:00
-
-Contribution: 2017-04-26 20:01
-
-Contribution: 2017-04-26 20:02
-
-Contribution: 2017-04-26 20:03
-
-Contribution: 2017-04-27 20:00
-
-Contribution: 2017-04-27 20:01
-
-Contribution: 2017-04-28 20:00
-
-Contribution: 2017-04-28 20:01
-
-Contribution: 2017-04-28 20:02
-
-Contribution: 2017-04-28 20:03
-
-Contribution: 2017-05-02 20:00
-
-Contribution: 2017-05-02 20:01
-
-Contribution: 2017-05-02 20:02
-
-Contribution: 2017-05-04 20:00
-
-Contribution: 2017-05-04 20:01
-
-Contribution: 2017-05-05 20:00
-
-Contribution: 2017-05-09 20:00
-
-Contribution: 2017-05-09 20:01
-
-Contribution: 2017-05-09 20:02
-
-Contribution: 2017-05-09 20:03
-
-Contribution: 2017-05-09 20:04
-
-Contribution: 2017-05-12 20:00
-
-Contribution: 2017-05-12 20:01
-
-Contribution: 2017-05-12 20:02
-
-Contribution: 2017-05-16 20:00
-
-Contribution: 2017-05-17 20:00
-
-Contribution: 2017-05-17 20:01
-
-Contribution: 2017-05-17 20:02
-
-Contribution: 2017-05-17 20:03
-
-Contribution: 2017-05-17 20:04
-
-Contribution: 2017-05-19 20:00
-
-Contribution: 2017-05-19 20:01
-
-Contribution: 2017-05-23 20:00
-
-Contribution: 2017-05-23 20:01
-
-Contribution: 2017-05-23 20:02
-
-Contribution: 2017-05-23 20:03
-
-Contribution: 2017-05-25 20:00
-
-Contribution: 2017-05-25 20:01
-
-Contribution: 2017-05-26 20:00
-
-Contribution: 2017-05-26 20:01
-
-Contribution: 2017-05-29 20:00
-
-Contribution: 2017-05-29 20:01
-
-Contribution: 2017-05-30 20:00
-
-Contribution: 2017-05-30 20:01
-
-Contribution: 2017-05-30 20:02
-
-Contribution: 2017-05-30 20:03
-
-Contribution: 2017-05-31 20:00
-
-Contribution: 2017-06-05 20:00
-
-Contribution: 2017-06-07 20:00
-
-Contribution: 2017-06-07 20:01
-
-Contribution: 2017-06-08 20:00
-
-Contribution: 2017-06-08 20:01
-
-Contribution: 2017-06-13 20:00
-
-Contribution: 2017-06-14 20:00
-
-Contribution: 2017-06-14 20:01
-
-Contribution: 2017-06-14 20:02
-
-Contribution: 2017-06-14 20:03
-
-Contribution: 2017-06-16 20:00
-
-Contribution: 2017-06-21 20:00
-
-Contribution: 2017-06-21 20:01
-
-Contribution: 2017-06-26 20:00
-
-Contribution: 2017-06-28 20:00
-
-Contribution: 2017-06-28 20:01
-
-Contribution: 2017-06-28 20:02
-
-Contribution: 2017-06-28 20:03
-
-Contribution: 2017-06-28 20:04
-
-Contribution: 2017-07-03 20:00
-
+If you love this Next js template and want to support me, you can do so through my GitHub profile.
